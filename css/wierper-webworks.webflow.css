@@ -93,7 +93,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 70px;
+  height: 60px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -121,10 +121,10 @@
 
 .small-ww-logo {
   position: static;
-  display: none;
+  display: block;
   overflow: visible;
   width: 100%;
-  height: 50px;
+  height: 45px;
   margin-right: 20px;
   padding-left: 0px;
   opacity: 0;
@@ -161,7 +161,7 @@
   display: block;
   overflow: visible;
   width: 0px;
-  margin-top: 11px;
+  margin-top: 7px;
   margin-right: 5px;
   padding-top: 0px;
   padding-right: 16px;
@@ -183,7 +183,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 70px;
+  height: 60px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -223,10 +223,10 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .image-6 {
@@ -239,6 +239,7 @@
   margin-top: 0px;
   font-family: Montserrat, sans-serif;
   color: #fff;
+  line-height: 38px;
   font-weight: 300;
   text-align: center;
   text-transform: none;
@@ -263,7 +264,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 70px;
+  margin-top: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: transparent;
@@ -311,9 +312,9 @@
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  padding-right: 20px;
+  padding-right: 0px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -455,19 +456,19 @@
 
 .paragraph-2 {
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
 }
 
 .paragraph-3 {
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
 }
 
 .paragraph-4 {
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -476,8 +477,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 75px;
-  padding-top: 5px;
+  height: 65px;
+  padding-top: 3px;
   padding-bottom: 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -485,6 +486,8 @@
   align-items: center;
   border-bottom: 5px solid transparent;
   background-color: rgba(255, 0, 0, 0);
+  -webkit-transition: padding 100ms ease, all 200ms ease;
+  transition: padding 100ms ease, all 200ms ease;
   font-family: Montserrat, sans-serif;
   color: #fff;
   font-weight: 300;
@@ -494,7 +497,7 @@
 
 .tnav-link2:hover {
   margin-top: 0px;
-  padding-top: 5px;
+  padding-top: 8px;
   padding-bottom: 0px;
   border-top: 5px none #0072bb;
   border-bottom: 5px solid transparent;
@@ -593,18 +596,21 @@
 
 .paragraph-5 {
   font-family: Montserrat, sans-serif;
+  font-size: 15px;
   font-weight: 300;
   text-align: center;
 }
 
 .paragraph-6 {
   font-family: Montserrat, sans-serif;
+  font-size: 15px;
   font-weight: 300;
   text-align: center;
 }
 
 .paragraph-7 {
   font-family: Montserrat, sans-serif;
+  font-size: 15px;
   font-weight: 300;
   text-align: center;
 }
@@ -825,7 +831,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
   text-align: center;
 }
@@ -837,7 +843,7 @@
   display: flex;
   width: 100%;
   margin: 0px 20px;
-  padding: 105px 35px 35px 30px;
+  padding: 90px 35px 35px 30px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -995,6 +1001,7 @@
 
 .footer {
   display: block;
+  overflow: visible;
   padding-top: 0px;
   background-color: #0072bb;
   opacity: 0.99;
@@ -1175,6 +1182,7 @@
   background-color: transparent;
   font-family: Montserrat, sans-serif;
   color: #0072bb;
+  line-height: 38px;
   font-weight: 300;
   text-align: center;
 }
@@ -1226,6 +1234,7 @@
 .paragraph-9 {
   margin-top: 0px;
   margin-bottom: 20px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -1363,14 +1372,20 @@
 }
 
 .text-block-2 {
+  font-size: 16px;
+  font-weight: 300;
   text-align: center;
 }
 
 .text-block-3 {
+  font-size: 16px;
+  font-weight: 300;
   text-align: center;
 }
 
 .text-block-4 {
+  font-size: 16px;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -1446,10 +1461,10 @@
   display: flex;
   margin-bottom: 30px;
   padding-top: 0px;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .section {
@@ -1457,8 +1472,16 @@
 }
 
 .spectext {
-  margin-bottom: 9px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
   padding-left: 10px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .countryflag {
@@ -1949,7 +1972,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 70px;
+  height: 60px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1964,8 +1987,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 75px;
-  padding-top: 5px;
+  height: 65px;
+  padding-top: 3px;
   padding-bottom: 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -1973,10 +1996,11 @@
   align-items: center;
   border-bottom: 5px solid transparent;
   background-color: rgba(255, 0, 0, 0);
-  -webkit-transition: border 250ms ease-in-out;
-  transition: border 250ms ease-in-out;
+  opacity: 1;
+  -webkit-transition: border 500ms ease-in-out;
+  transition: border 500ms ease-in-out;
   font-family: Montserrat, sans-serif;
-  color: #fff;
+  color: transparent;
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2066,7 +2090,7 @@
   display: block;
   overflow: visible;
   width: 100%;
-  height: 50px;
+  height: 45px;
   margin-right: 20px;
   padding-left: 0px;
   opacity: 1;
@@ -2083,7 +2107,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 70px;
+  height: 60px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -2125,7 +2149,12 @@
 
 .tnav-link.w--current {
   z-index: 1001;
-  padding-top: 5px;
+  height: 65px;
+  padding-top: 3px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-top: 5px none transparent;
   border-bottom: 5px solid transparent;
   background-color: transparent;
@@ -2137,7 +2166,7 @@
 }
 
 .tnav-link.w--current:hover {
-  padding-top: 5px;
+  padding-top: 3px;
   border-top-style: none;
   border-bottom-style: solid;
   border-bottom-color: transparent;
@@ -2150,7 +2179,7 @@
   overflow: visible;
   width: 193px;
   height: 45px;
-  margin-top: 11px;
+  margin-top: 7px;
   margin-right: 5px;
   padding-top: 0px;
   padding-right: 16px;
@@ -2159,6 +2188,15 @@
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+}
+
+.div-block-7 {
+  opacity: 1;
+}
+
+.text-block-6 {
+  font-size: 16px;
+  font-weight: 300;
 }
 
 html.w-mod-js *[data-ix="collumn-grow"] {
@@ -2227,11 +2265,32 @@ html.w-mod-js *[data-ix="skill-4"] {
     font-size: 28px;
     line-height: 40px;
   }
+  .paragraph {
+    font-size: 16px;
+  }
   .row-2 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+  .paragraph-2 {
+    font-size: 15px;
+  }
+  .paragraph-3 {
+    font-size: 15px;
+  }
+  .paragraph-4 {
+    font-size: 15px;
+  }
+  .paragraph-5 {
+    font-size: 15px;
+  }
+  .paragraph-6 {
+    font-size: 15px;
+  }
+  .paragraph-7 {
+    font-size: 15px;
   }
   .column-4 {
     padding-right: 15px;
@@ -2288,7 +2347,13 @@ html.w-mod-js *[data-ix="skill-4"] {
     padding-left: 20px;
   }
   .intro-heading {
-    font-size: 25px;
+    font-size: 38px;
+  }
+  .javascript-skill {
+    width: 70%;
+  }
+  .java-skill {
+    width: 80%;
   }
   .text-block-3 {
     margin-bottom: 15px;
@@ -2302,7 +2367,7 @@ html.w-mod-js *[data-ix="skill-4"] {
     padding-left: 15px;
   }
   .small-ww-logo2 {
-    display: none;
+    display: block;
   }
   .brand2 {
     top: 0px;
@@ -2743,7 +2808,7 @@ html.w-mod-js *[data-ix="skill-4"] {
     margin: -25px 20px 0px;
     padding-bottom: 0px;
     font-size: 30px;
-    line-height: 38px;
+    line-height: 34px;
   }
   .button {
     margin-top: -15px;
@@ -2775,6 +2840,9 @@ html.w-mod-js *[data-ix="skill-4"] {
     display: flex;
     margin-top: 10px;
   }
+  .paragraph {
+    font-size: 16px;
+  }
   .row-2 {
     display: block;
     margin-top: 20px;
@@ -2791,6 +2859,15 @@ html.w-mod-js *[data-ix="skill-4"] {
   .image-11 {
     margin-bottom: 15px;
   }
+  .paragraph-2 {
+    font-size: 16px;
+  }
+  .paragraph-3 {
+    font-size: 16px;
+  }
+  .paragraph-4 {
+    font-size: 16px;
+  }
   .tnav-link2 {
     background-color: rgba(0, 0, 0, .85);
   }
@@ -2800,6 +2877,15 @@ html.w-mod-js *[data-ix="skill-4"] {
   .tnav-link2.w--current {
     background-color: rgba(0, 114, 187, .9);
     box-shadow: 0 3px 11px -1px #000;
+  }
+  .paragraph-5 {
+    font-size: 16px;
+  }
+  .paragraph-6 {
+    font-size: 16px;
+  }
+  .paragraph-7 {
+    font-size: 16px;
   }
   .image-13 {
     margin-bottom: 15px;
@@ -2939,6 +3025,7 @@ html.w-mod-js *[data-ix="skill-4"] {
     display: -ms-flexbox;
     display: flex;
     max-width: 280px;
+    padding-right: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2993,6 +3080,7 @@ html.w-mod-js *[data-ix="skill-4"] {
     margin-bottom: 20px;
   }
   .footer-container {
+    margin-bottom: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -3044,10 +3132,16 @@ html.w-mod-js *[data-ix="skill-4"] {
     padding-top: 0px;
   }
   .image-19 {
+    height: 200px;
     margin: 35px 10px 67px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
   .intro-heading {
     font-size: 30px;
+    line-height: 34px;
   }
   .list-item-grey {
     margin-bottom: 5px;
@@ -3184,12 +3278,17 @@ html.w-mod-js *[data-ix="skill-4"] {
   }
   .column-image {
     height: 230px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px 40px 30px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
   .div-block-6 {
     display: -webkit-box;
