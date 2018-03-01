@@ -2388,7 +2388,7 @@
 }
 
 .once {
-  display: block;
+  display: none;
   opacity: 1;
 }
 
