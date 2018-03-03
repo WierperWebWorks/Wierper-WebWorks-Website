@@ -1026,11 +1026,12 @@
 }
 
 .footer {
+  position: relative;
   display: block;
   overflow: visible;
   padding-top: 0px;
   background-color: #0072bb;
-  opacity: 0.99;
+  opacity: 1;
 }
 
 .footer-container {
@@ -4038,7 +4039,7 @@ html.w-mod-js *[data-ix="skills-load"] {
     margin-top: 20px;
   }
   .once {
-    display: block;
+    display: none;
   }
   .hpheading {
     margin-top: 0px;
