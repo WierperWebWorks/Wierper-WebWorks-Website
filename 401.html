@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Mar 03 2018 17:19:58 GMT+0000 (UTC)  -->
-<html data-wf-page="5a98037847dc6200015987dd" data-wf-site="5a85d0f196366500012d306d">
+<!--  Last Published: Tue Mar 13 2018 15:09:26 GMT+0000 (UTC)  -->
+<html data-wf-page="5aa007d238aaa40001cf760c" data-wf-site="5a85d0f196366500012d306d">
 <head>
   <meta charset="utf-8">
-  <title>save</title>
-  <meta content="save" property="og:title">
+  <title>Protected page</title>
+  <meta content="Protected page" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -24,14 +24,21 @@
 </style>
 </head>
 <body>
-  <div data-collapse="tiny" data-animation="over-right" data-duration="300" data-easing="ease-in-out" data-easing2="ease-in-out" class="default-nav w-nav">
-    <div>
-      <div class="menu-button-2 w-nav-button" data-ix="new-interaction">
-        <div class="w-icon-nav-menu"></div>
+  <div>
+    <div class="w-password-page w-form">
+      <form method="post" action="/.wf_auth" class="w-password-page"><img src="https://d3e54v103j8qbb.cloudfront.net/static/password-page-lock.832ca8e2c9.svg">
+        <h2>Protected page</h2>
+        <div style="display:none" class="w-password-page w-embed w-script"><input type="hidden" name="path" value="<%WF_FORM_VALUE_PATH%>"><input type="hidden" name="page" value="<%WF_FORM_VALUE_PAGE%>"></div><input type="password" name="pass" placeholder="Enter your password" maxlength="256" autofocus="true" class="w-password-page w-input"><input type="submit" value="Submit" data-wait="Please wait..." class="w-password-page w-button"></form>
+      <div class="w-password-page w-form-fail">
+        <div>Incorrect password. Please try again.</div>
       </div>
-    </div>
-    <div class="navcontainer w-container"><a href="#" class="brand2 w-hidden-small w-nav-brand"><img src="images/WWWlogo8ColorShadowSideways2White.svg" width="193" class="small-ww-logo2 w-hidden-small"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" class="tnav-link2 w-nav-link">Home</a><a href="over.html" class="tnav-link2 w-nav-link">Over</a><a href="producten.html" class="tnav-link2 w-nav-link">Producten</a><a href="#" class="tnav-link2 w-nav-link">Contact</a></nav>
+      <div style="display:none" class="w-password-page w-embed w-script">
+        <script type="application/javascript">(function _handlePasswordPageOnload() {
+	  if (/[?&]e=1(&|$)/.test(document.location.search)) {
+	    document.querySelector('.w-password-page.w-form-fail').style.display = 'block';
+	  }
+	})()</script>
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" intergrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

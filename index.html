@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Mar 03 2018 17:19:58 GMT+0000 (UTC)  -->
-<html data-wf-page="5a98037847dc6200015987d6" data-wf-site="5a85d0f196366500012d306d">
+<!--  Last Published: Tue Mar 13 2018 15:09:26 GMT+0000 (UTC)  -->
+<html data-wf-page="5aa007d238aaa40001cf760a" data-wf-site="5a85d0f196366500012d306d">
 <head>
   <meta charset="utf-8">
-  <title>Wierper WebWorks</title>
+  <title>Wierper WebWorks | Voor iedereen een website op maat.</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -24,7 +24,7 @@
 </head>
 <body class="body">
   <div data-collapse="tiny" data-animation="over-right" data-duration="300" data-easing="ease-in-out" data-easing2="ease-in-out" class="dark-nav w-nav">
-    <div class="navcontainer w-container"><a href="#" class="brand w-hidden-small w-nav-brand"><img src="images/WWWlogo8ColorShadowSideways2White.svg" width="193" class="small-ww-logo w-hidden-small w-hidden-tiny"></a>
+    <div class="navcontainer w-container"><a href="#" class="brand w-hidden-small w-nav-brand"><img src="images/WWWlogo8ColorShadowSideways2White.svg" width="193" class="small-ww-logo-dark w-hidden-small w-hidden-tiny"></a>
       <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" class="dnav-link w-nav-link">Home</a><a href="over.html" class="dnav-link w-nav-link">Over</a><a href="producten.html" class="dnav-link w-nav-link">Producten</a><a href="#" class="dnav-link w-nav-link">Contact</a></nav>
     </div>
   </div>
@@ -34,8 +34,21 @@
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
-    <div class="navcontainer w-container"><a href="#" class="brand w-hidden-small w-nav-brand"><img src="images/WWWlogo8ColorShadowSideways2White.svg" width="193" class="small-ww-logo w-hidden-small"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" class="tnav-link w-nav-link">Home</a><a href="over.html" class="tnav-link2 w-nav-link">Over</a><a href="producten.html" class="tnav-link2 w-nav-link">Producten</a><a href="#" class="tnav-link2 w-nav-link">Contact</a></nav>
+    <div class="navcontainer w-container"><a href="#" class="brand w-hidden-small w-nav-brand" data-ix="logo-navbar-open"><img src="images/WWWlogo8ColorShadowSideways2White.svg" width="193" class="small-ww-logo w-hidden-small"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <div class="navski-active-home"><a href="index.html" class="tnav-link2-home w-nav-link">Home</a>
+          <div class="underline-nav-active"></div>
+        </div>
+        <div class="navski2-home" data-ix="nav-underline-2"><a href="over.html" class="tnav-link2 w-nav-link">Over</a>
+          <div class="underline-nav2"></div>
+        </div>
+        <div class="navski3-home" data-ix="nav-underline3"><a href="producten.html" class="tnav-link2 w-nav-link">Producten</a>
+          <div class="underline-nav3"></div>
+        </div>
+        <div class="navski1-home" data-ix="nav-underline-1"><a href="contact.html" class="tnav-link2 w-nav-link">Contact</a>
+          <div class="underline-nav1"></div>
+        </div>
+      </nav>
     </div>
   </div>
   <div class="header">
@@ -45,7 +58,8 @@
           <div class="gradient-layer-2">
             <div class="gradient-layer-3 div-block-4 div-block-7">
               <div class="ww-logo-l"><img src="images/WWWlogo8ColorShadowWhiteShadowText-ybr.svg" width="220" class="image-6"></div>
-              <h1 class="heading">Voor iedereen een website op maat.</h1>
+              <h1 class="hero-slogan">Voor iedereen een website op maat.</h1>
+              <div class="_2buttons"><a href="over.html" class="herobutton w-button">Over www</a><a href="contact.html" class="herobutton w-button">Contact</a></div>
               <section data-w-id="3e63932f-15c9-c2e9-3058-8d39f62c7d77" class="arrowdown"><a href="#intro" data-w-id="ea5a4baa-10ae-232a-d087-c1e96b298731" class="button w-button"></a></section>
             </div>
           </div>
@@ -58,12 +72,14 @@
     <div id="intro" class="intro">
       <div class="container w-container">
         <div class="intro-wrapper">
-          <h1 class="intro-heading">Voor iedereen een website op maat.</h1>
-          <p class="paragraph" data-ix="collumn-grow">Wierper WebWorks is een freelance webdevelopment bureau dat zich onderscheidt door de goede balans tussen technische en grafische vaardigheden. Door goed gebruik van de juiste tools en een dosis creativiteit word er altijd gestreefd naar een schitterend en uniek eindproduct.</p>
+          <div class="home-top-text" data-ix="collumn-grow">
+            <h1 class="intro-heading">Voor iedereen een website op maat.</h1>
+            <p class="paragraph">Wierper WebWorks is een freelance webdevelopment bureau dat zich onderscheidt door de goede balans tussen technische en grafische vaardigheden. Door gebruik van de juiste tools en een dosis creativiteit word er altijd gestreefd naar een schitterend en uniek eindproduct.</p>
+          </div>
           <div class="row-3 w-row">
             <div class="c1 w-col w-col-4" data-ix="collumn-grow"><img src="images/design.svg" class="image-9">
               <h3 class="hpheading">Uniek design</h3>
-              <p class="paragraph-2">Een passend en uniek design staat bij mij hoog in het vaandel. Een goede indruk achter laten bij je bezoekers is immers erg belangrijk.</p>
+              <p class="paragraph-2">Een passend en uniek design staat bij mij hoog in het vaandel. Een goede indruk achter laten bij uw bezoekers is immers erg belangrijk.</p>
             </div>
             <div class="c2 w-col w-col-4" data-ix="collumn-grow"><img src="images/tech.svg" class="image-10">
               <h3 class="hpheading">Nieuwste technologie</h3>
@@ -81,11 +97,11 @@
             </div>
             <div class="column-2 w-col w-col-4" data-ix="collumn-grow"><img src="images/cms.svg" class="image-14">
               <h3 class="hpheading">Beheer je content</h3>
-              <p class="paragraph-6">Kleine aanpassingen aan je website kunnen direct gemaakt worden. Je kunt gebruik maken van een eenvoudige editor of CMS.</p>
+              <p class="paragraph-6">Kleine aanpassingen aan uw website kunnen direct gemaakt worden. U kunt gebruik maken van een eenvoudige editor of CMS.</p>
             </div>
             <div class="column w-col w-col-4" data-ix="collumn-grow"><img src="images/hosting.svg" class="image-15">
               <h3 class="hpheading">Betrouwbare hosting</h3>
-              <p class="paragraph-5">Heb je nog geen domeinnaam of hosting pakket? Dit bied ik aan. Deze hosting is niet alleen razendsnel, maar ook nog eens betrouwbaar en veilig.</p>
+              <p class="paragraph-5">Heeft u nog geen domeinnaam of hosting pakket? Dit bied ik aan. Deze hosting is niet alleen razendsnel, maar ook nog eens betrouwbaar en veilig.</p>
             </div>
           </div>
         </div>
@@ -93,46 +109,26 @@
       <div class="product-promo">
         <div class="homepage-row w-row">
           <div class="columnhp w-col w-col-6" data-ix="collumn-grow">
-            <h1 class="products-heading">Je eigen website. <br>Al vanaf €49 per maand.</h1><a href="#" class="nice-button w-button">Lees meer..</a></div>
-          <div class="column-image w-col w-col-6" data-ix="collumn-grow"><img src="images/44405-O4HRWW.svg"></div>
+            <h1 class="products-heading">Je eigen website. <br>Al vanaf €44,- per maand.</h1><a href="producten.html" class="nice-button w-button">Lees meer..</a></div>
+          <div class="column-image w-col w-col-6" data-ix="collumn-grow"><img src="images/44405-O4HRWW.svg" class="image-29"></div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="footer">
-    <div class="footer-container w-container">
-      <div class="row-6 w-row">
-        <div class="column-9 w-col w-col-6 w-col-tiny-tiny-stack" data-ix="collumn-grow">
-          <div data-disable-scroll="1" data-widget-latlng="51.8372042,5.8540709" data-widget-zoom="16" class="map w-widget w-widget-map"></div>
-          <div class="footer-contact-buttons"><img src="images/facebook.svg" class="footer-socialbutton"><img src="images/instagram.svg" class="footer-socialbutton"><img src="images/linkedin.svg" width="35" height="35" class="footer-socialbutton"></div>
-        </div>
-        <div class="column-8 w-col w-col-6 w-col-tiny-tiny-stack" data-ix="collumn-grow">
-          <div class="footertextblock-1">
-            <div class="text-block-title">Kom met mij in contact</div>
-          </div>
-          <div class="footertextblock-2">
-            <div class="text-block-title-copy-2">Wierper WebWorks, Freelance webdevelopment</div>
-          </div>
-          <div class="div-block-3">
-            <div class="footertextblock"><img src="images/placeholder.svg" class="countryflag">
-              <div class="text-block-footer">6512 GR, Nijmegen</div>
-            </div>
-            <div class="footertextblock"><img src="images/email.svg" class="countryflag">
-              <div class="text-block-footer">info@wierperwebworks.nl</div>
-            </div>
-            <div class="footertextblock"><img src="images/phone-call.svg" class="countryflag">
-              <div class="text-block-footer">+31 6 50 83 21 95</div>
-            </div>
-          </div>
-          <div class="footertextblock-button"></div>
-          <div class="footer-contact-buttons">
-            <div class="div-block-6">
-              <div class="footer-button">
-                <div class="text-block-5">Stuur mij een berichtje</div>
-              </div>
-            </div>
+    <div class="about-homepage" data-ix="text-scroll-fade">
+      <div class="container-2 w-container">
+        <div class="row-7 w-row">
+          <div class="column-11 w-col w-col-7" data-ix="collumn-grow">
+            <h1 class="heading-12">Wie ben ik?</h1>
+            <div class="text-block-8">Fritz Wierper - Informatica - Communication &amp; Multimedia Design</div><a href="over.html" class="nice-button-white w-button">Lees meer..</a></div>
+          <div class="column-10 w-col w-col-5">
+            <div class="imageblock" data-ix="face-fade"></div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-container w-container">
+        <div class="footer-text"></div>
       </div>
     </div>
   </div>
