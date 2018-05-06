@@ -1873,6 +1873,8 @@
 }
 
 .prod-item-textblock {
+  margin-right: 10px;
+  margin-left: 10px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -4751,8 +4753,9 @@ html.w-mod-js *[data-ix="arrowdown"] {
     padding-right: 30px;
   }
   .product-column {
-    padding-right: 10px;
-    padding-left: 10px;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .prod-block {
     height: 100%;
@@ -4789,6 +4792,9 @@ html.w-mod-js *[data-ix="arrowdown"] {
   }
   .monthly {
     width: 100%;
+  }
+  .prod-item-textblock {
+    margin-left: 0px;
   }
   .small-ww-logo-dark {
     display: none;
