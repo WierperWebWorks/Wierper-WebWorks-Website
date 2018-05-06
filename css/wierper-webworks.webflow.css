@@ -1990,7 +1990,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 59px;
+  margin-top: 130px;
   margin-right: -10px;
   margin-bottom: 60px;
   -webkit-box-orient: horizontal;
@@ -2585,6 +2585,7 @@
 
 .map-2 {
   position: relative;
+  overflow: hidden;
   width: 180%;
   height: 132%;
   float: left;
@@ -2963,7 +2964,7 @@
 }
 
 .contactcontainer {
-  position: absolute;
+  position: static;
   left: 0px;
   top: 0px;
   right: 0px;
@@ -2972,7 +2973,15 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 60px;
+  overflow: visible;
+  height: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -5268,7 +5277,7 @@ html.w-mod-js *[data-ix="arrowdown"] {
     flex-direction: column-reverse;
   }
   .form-rightcol {
-    margin-top: 594px;
+    margin-top: 0px;
   }
   .radiobuttons {
     width: 100%;
@@ -5980,7 +5989,7 @@ html.w-mod-js *[data-ix="arrowdown"] {
   .form-rightcol {
     z-index: 0;
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: 60px;
     padding-top: 20px;
   }
   .form-leftcol {
