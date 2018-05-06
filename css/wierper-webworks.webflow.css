@@ -4754,8 +4754,8 @@ html.w-mod-js *[data-ix="arrowdown"] {
   }
   .product-column {
     display: block;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .prod-block {
     height: 100%;
@@ -5202,6 +5202,12 @@ html.w-mod-js *[data-ix="arrowdown"] {
   .products-button {
     margin-top: 0px;
     padding-top: 90px;
+  }
+  .product-column {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .prod-block {
     max-width: 300px;
@@ -5710,7 +5716,7 @@ html.w-mod-js *[data-ix="arrowdown"] {
     display: -ms-flexbox;
     display: flex;
     margin: 0px;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-right: 20px;
     padding-left: 20px;
     -webkit-box-align: center;
@@ -5720,7 +5726,13 @@ html.w-mod-js *[data-ix="arrowdown"] {
     border-radius: 0px;
   }
   .product-column {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .prod-block {
     display: -webkit-box;
