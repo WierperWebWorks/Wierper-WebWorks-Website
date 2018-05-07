@@ -1265,8 +1265,17 @@
 }
 
 .row-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 0px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 0px;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .dutch-skill {
@@ -3470,7 +3479,7 @@
   margin-top: 0px;
   background-image: url('../images/cooperation-com.jpg');
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: 100% 140%;
   background-attachment: fixed;
   -webkit-transform: scale3d(1, 0.8, 1);
   transform: scale3d(1, 0.8, 1);
@@ -3488,7 +3497,7 @@
   margin-top: 0px;
   background-image: url('../images/photo-1485988412941-77a35537dae4.jpeg');
   background-position: 53% 49%;
-  background-size: cover;
+  background-size: 100% 140%;
   background-attachment: fixed;
   -webkit-transform: scale3d(1, 0.8, 1);
   transform: scale3d(1, 0.8, 1);
@@ -4857,6 +4866,12 @@ html.w-mod-js *[data-ix="arrowdown"] {
   .nice-button-sections {
     margin-top: 30px;
   }
+  .parallax-bg1 {
+    background-size: cover;
+  }
+  .parallax-bg2 {
+    background-size: cover;
+  }
   .nice-button-prod {
     margin-top: 0px;
   }
@@ -5574,7 +5589,7 @@ html.w-mod-js *[data-ix="arrowdown"] {
     margin-left: 0px;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 16px;
+    font-size: 15px;
   }
   .productsmonthly {
     display: block;
@@ -5774,8 +5789,14 @@ html.w-mod-js *[data-ix="arrowdown"] {
     margin-top: 0px;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 32px;
+  }
+  .paragraph-9 {
+    margin-bottom: 40px;
+  }
+  .container-3 {
+    padding-top: 95px;
   }
   .column-6 {
     padding-right: 10px;
@@ -5783,6 +5804,10 @@ html.w-mod-js *[data-ix="arrowdown"] {
   }
   .column-7 {
     padding-left: 10px;
+  }
+  .row-5 {
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
   .kwaliteiten {
     margin-top: 0px;
@@ -6008,7 +6033,8 @@ html.w-mod-js *[data-ix="arrowdown"] {
     z-index: 0;
     overflow: hidden;
     margin-top: 60px;
-    padding-top: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
   }
   .form-leftcol {
     z-index: 0;
@@ -6016,7 +6042,9 @@ html.w-mod-js *[data-ix="arrowdown"] {
     padding-bottom: 1px;
   }
   .form-block {
+    padding-right: 20px;
     padding-bottom: 30px;
+    padding-left: 20px;
   }
   .form-labelblock {
     margin-right: 0px;
@@ -6122,6 +6150,7 @@ html.w-mod-js *[data-ix="arrowdown"] {
   }
   .formheading {
     margin-top: 16px;
+    line-height: 36px;
   }
   .image-28 {
     opacity: 0.07;
@@ -6282,7 +6311,7 @@ html.w-mod-js *[data-ix="arrowdown"] {
   .hero-slogan {
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 22px;
+    font-size: 25px;
     line-height: 32px;
   }
   .herobutton1 {
@@ -6322,7 +6351,7 @@ html.w-mod-js *[data-ix="arrowdown"] {
     overflow: hidden;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 60px;
+    padding: 15px 10px 60px;
   }
   .whitespace-contact {
     position: relative;
@@ -6356,17 +6385,23 @@ html.w-mod-js *[data-ix="arrowdown"] {
     padding-top: 35px;
   }
   .darkdiv {
-    padding-top: 55px;
+    padding-top: 50px;
     padding-bottom: 60px;
   }
+  .container-6 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .darkdiv-paragraph {
-    font-size: 16px;
-    line-height: 25px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 15px;
+    line-height: 22px;
   }
   .darkdiv-heading {
     margin-bottom: 25px;
     font-size: 22px;
-    line-height: 33px;
+    line-height: 28px;
   }
   .prod-block-1 {
     display: -webkit-box;
@@ -6463,7 +6498,8 @@ html.w-mod-js *[data-ix="arrowdown"] {
     padding-bottom: 15px;
   }
   .footer-pic {
-    width: 250px;
+    width: 200px;
+    height: 40px;
   }
   .link {
     font-size: 13px;
@@ -6504,6 +6540,8 @@ html.w-mod-js *[data-ix="arrowdown"] {
     padding-top: 10px;
   }
   .prod-bottom {
+    padding-right: 20px;
+    padding-left: 20px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -6572,7 +6610,7 @@ html.w-mod-js *[data-ix="arrowdown"] {
   .products-heading-home {
     margin-bottom: 25px;
     font-size: 25px;
-    line-height: 38px;
+    line-height: 32px;
   }
   .paragraph-11 {
     font-size: 15px;
