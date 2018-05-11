@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon May 07 2018 20:05:47 GMT+0000 (UTC)  -->
+<!--  Last Published: Fri May 11 2018 18:10:54 GMT+0000 (UTC)  -->
 <html data-wf-page="5ae0e56bb744c129ccaa9b7d" data-wf-site="5a85d0f196366500012d306d">
 <head>
   <meta charset="utf-8">
@@ -12,11 +12,19 @@
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/wierper-webworks.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Inconsolata:400,700"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon-32x32.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip1.png" rel="apple-touch-icon">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/iamceege/tooltipster/master/dist/css/tooltipster.bundle.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/iamceege/tooltipster/master/src/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.css">
+  <style>
+.tooltipster-sidetip.tooltipster-borderless .tooltipster-box {
+	text-align:center;
+  	max-width:200px;
+}
+</style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdn.rawgit.com/hellogerard/jquery.typer.js/pr-1/src/jquery.typer.js"></script>
   <script> 
@@ -68,7 +76,7 @@ a {
   <div class="preloader" data-ix="preloader-2"><img src="images/Triangles-1.3s-200px.svg" class="image-32" data-ix="preloadericon"></div>
   <div data-collapse="medium" data-animation="over-right" data-duration="400" data-easing="ease-in-out" data-easing2="ease-in-out" class="navbar-rest w-nav">
     <div class="container-7 w-container"><a href="#" class="brand-2 w-nav-brand"><img src="images/logo-noshadow-notext.png" height="35" class="image-29"></a>
-      <nav role="navigation" class="nav-menu-2 w-nav-menu"><a href="index.html" class="nav-link w-nav-link">Home</a><a href="over.html" class="nav-link w-nav-link">Over</a><a href="pakketten.html" class="nav-link w-nav-link">Pakketten</a><a href="contact.html" class="nav-link-blue w-nav-link">Neem contact op</a></nav>
+      <nav role="navigation" class="nav-menu-2 w-nav-menu"><a href="index.html" class="nav-link w-nav-link">Home</a><a href="over.html" class="nav-link w-nav-link">Over</a><a href="pakketten.html" class="nav-link w-nav-link w--current">Pakketten</a><a href="contact.html" class="nav-link-blue w-nav-link">Neem contact op</a></nav>
       <div data-ix="button-10" class="button-10 w-nav-button">
         <div class="line-1 simple white"></div>
         <div class="line-2 simple white"></div>
@@ -84,14 +92,14 @@ a {
         </div>
         <div class="intro-wrapper">
           <div class="monthly">
-            <p class="products-paragraph">Iedereen heeft andere wensen en verwachtingen. Daarom kunt u kiezen uit drie pakketten om uw ideale website te realiseren. Voor ieder wat wils dus. U kunt kiezen uit:</p>
-            <div class="monthlyornot"><a href="#" class="active-switchbutton w-button">Maandelijks</a>
+            <p class="products-paragraph" data-ix="scroll-fade">Iedereen heeft andere wensen en verwachtingen. Daarom kunt u kiezen uit drie pakketten om uw ideale website te realiseren. Voor ieder wat wils dus. U kunt kiezen uit:</p>
+            <div class="monthlyornot" data-ix="scroll-fade"><a href="#" class="active-switchbutton w-button">Maandelijks</a>
               <div class="of">
                 <div class="text-block-7">of</div>
               </div><a href="#" class="passive-switchbutton button-2 w-button" data-ix="buttonswitch">Eenmalig</a></div>
-            <p class="products-paragraph">Met een maandelijks abonnement bent u voorzien van alles wat nodig is om uw website te bouwen, te hosten en te onderhouden. Geen eenmalige kosten. Wanneer de website om wat voor reden dan ook niet bevalt, heeft u altijd de keuze om op te zeggen.</p>
-            <div class="productsmonthly w-row" data-ix="block-scroll-fade">
-              <div class="product-column w-col w-col-4">
+            <p class="products-paragraph" data-ix="scroll-fade">Met een maandelijks abonnement bent u voorzien van alles wat nodig is om uw website te bouwen, te hosten en te onderhouden. Geen eenmalige kosten. Wanneer de website om wat voor reden dan ook niet bevalt, heeft u altijd de keuze om op te zeggen.</p>
+            <div class="productsmonthly w-row">
+              <div class="product-column w-col w-col-4" data-ix="scroll-fade">
                 <div class="prod-block-1">
                   <div class="prod-top1">
                     <div class="price-container">
@@ -115,32 +123,48 @@ a {
                     <div class="prodlist">
                       <div class="proditem">
                         <div class="prod-item-textblock">One-page</div>
+                        <div tooltipster="top" title="Een uniek one-page design. Voor sommigen is één pagina genoeg." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">15 uur onderhoud p/j</div>
+                        <div tooltipster="top" title="Staat de website online en bent u toch niet helemaal tevreden met de kleur van dat ene knopje? Ik pas het voor u aan!" class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Responsive design</div>
+                        <div tooltipster="top" title="Uw website zal ook goed te zien zijn op smartphones en tablets." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Eigen domeinnaam</div>
+                        <div tooltipster="top" title="Ik zorg voor de aanschaf van een nieuwe domeinnaam. Heeft u al een domeinnaam? Dan zorg ik dat het netjes wordt overgezet." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">MailChimp</div>
+                        <div tooltipster="top" title="Met MailChimp houdt u controle over uw mailverkeer en formulieren op uw website." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Hosting</div>
+                        <div tooltipster="top" title="Ik zorg voor de hosting van uw website. Deze hosting is betrouwbaar en supersnel." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">50.000 bezoeken p/m</div>
+                        <div tooltipster="top" title="De hosting van uw website kan maandelijks 50.000 bezoeken aan." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">SEO standard</div>
+                        <div tooltipster="top" title="Search Engine Optimalisation zorgt ervoor dat uw website goed vindbaar is door zoekmachines." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">Live binnen 2-4 weken</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 2 tot 4 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem-not">
                         <div class="prod-item-textblock">Geen editor</div>
-                      </div>
-                      <div class="proditem-not">
-                        <div class="prod-item-textblock">Geen contentbeheer</div>
-                      </div>
-                    </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                        <div tooltipster="top" title="Met de editor kunt u gemakkelijk content veranderen op uw website." class="tooltip"></div>
+                      </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                  </div>
                 </div>
               </div>
-              <div class="product-column w-col w-col-4">
+              <div class="product-column w-col w-col-4" data-ix="scroll-fade">
                 <div class="prod-block-1">
                   <div class="prod-top2">
                     <div class="price-container">
@@ -164,32 +188,48 @@ a {
                     <div class="prodlist">
                       <div class="proditem">
                         <div class="prod-item-textblock">7 pagina&#x27;s</div>
+                        <div tooltipster="top" title="Maarliefst 7 pagina&#x27;s om uw ideale website samen te stellen." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">25 uur onderhoud p/j</div>
+                        <div tooltipster="top" title="Staat de website online en bent u toch niet helemaal tevreden met de kleur van dat ene knopje? Ik pas het voor u aan!" class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Responsive design</div>
+                        <div tooltipster="top" title="Uw website zal ook goed te zien zijn op smartphones en tablets." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Eigen domeinnaam</div>
+                        <div tooltipster="top" title="Ik zorg voor de aanschaf van een nieuwe domeinnaam. Heeft u al een domeinnaam? Dan zorg ik dat het netjes wordt overgezet." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">MailChimp</div>
+                        <div tooltipster="top" title="Met MailChimp houdt u controle over uw mailverkeer en formulieren op uw website." class="tooltip"></div>
                       </div>
                       <div class="proditem">
-                        <div class="prod-item-textblock">Hosting</div>
+                        <div class="prod-item-textblock">CMS Hosting</div>
+                        <div tooltipster="top" title="Met CMS hosting kunt u gemakkelijk uw content aanpassen/beheren." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">100.000 bezoeken p/m</div>
+                        <div tooltipster="top" title="De hosting van uw website kan maandelijks 100..000 bezoeken aan." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">SEO standard</div>
+                        <div tooltipster="top" title="Search Engine Optimalisation zorgt ervoor dat uw website goed vindbaar is door zoekmachines." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">Live binnen 4-6 weken</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 4 tot 6 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Editor</div>
-                      </div>
-                      <div class="proditem">
-                        <div class="prod-item-textblock">Contentbeheer</div>
-                      </div>
-                    </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                        <div tooltipster="top" title="Met de editor kunt u gemakkelijk content veranderen op uw website." class="tooltip"></div>
+                      </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                  </div>
                 </div>
               </div>
-              <div class="product-column w-col w-col-4">
+              <div class="product-column w-col w-col-4" data-ix="scroll-fade">
                 <div class="prod-block-1">
                   <div class="prod-top3">
                     <div class="price-container">
@@ -213,42 +253,58 @@ a {
                     <div class="prodlist">
                       <div class="proditem">
                         <div class="prod-item-textblock">Onbeperkte pagina&#x27;s</div>
+                        <div tooltipster="top" title="Onbeperkt aantal pagina&#x27;s om uw ideale website samen te stellen." class="tooltip"></div>
                       </div>
                       <div class="proditem">
-                        <div class="prod-item-textblock">35 uur onderhoud p/j</div>
+                        <div class="prod-item-textblock">40 uur onderhoud p/j</div>
+                        <div tooltipster="top" title="Staat de website online en bent u toch niet helemaal tevreden met de kleur van dat ene knopje? Ik pas het voor u aan!" class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Responsive design</div>
+                        <div tooltipster="top" title="Uw website zal ook goed te zien zijn op smartphones en tablets." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Eigen domeinnaam</div>
+                        <div tooltipster="top" title="Ik zorg voor de aanschaf van een nieuwe domeinnaam. Heeft u al een domeinnaam? Dan zorg ik dat het netjes wordt overgezet." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">MailChimp</div>
+                        <div tooltipster="top" title="Met MailChimp houdt u controle over uw mailverkeer en formulieren op uw website." class="tooltip"></div>
                       </div>
                       <div class="proditem">
-                        <div class="prod-item-textblock">Hosting</div>
+                        <div class="prod-item-textblock">CMS Hosting</div>
+                        <div tooltipster="top" title="Met CMS hosting kunt u gemakkelijk uw content aanpassen/beheren." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">1.000.000 bezoeken p/m</div>
+                        <div tooltipster="top" title="De hosting van uw website kan maandelijks 1.000.000 bezoeken aan." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">SEO Large</div>
+                        <div tooltipster="top" title="Search Engine Optimalisation zorgt ervoor dat uw website goed vindbaar is door zoekmachines." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">Live binnen 6-8 weken</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 6 tot 8 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Editor</div>
-                      </div>
-                      <div class="proditem">
-                        <div class="prod-item-textblock">Contentbeheer</div>
-                      </div>
-                    </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                        <div tooltipster="top" title="Met de editor kunt u gemakkelijk content veranderen op uw website." class="tooltip"></div>
+                      </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="once">
-            <p class="products-paragraph">Iedereen heeft andere wensen en verwachtingen. Daarom kunt u kiezen uit drie pakketten om uw ideale website te realiseren. Voor ieder wat wils dus. U kunt kiezen uit:</p>
-            <div class="monthlyornot"><a href="#" class="passive-switchbutton2 w-button" data-ix="buttonswitchback">Maandelijks</a>
+            <p class="products-paragraph" data-ix="scroll-fade">Iedereen heeft andere wensen en verwachtingen. Daarom kunt u kiezen uit drie pakketten om uw ideale website te realiseren. Voor ieder wat wils dus. U kunt kiezen uit:</p>
+            <div class="monthlyornot" data-ix="scroll-fade"><a href="#" class="passive-switchbutton2 w-button" data-ix="buttonswitchback">Maandelijks</a>
               <div class="of">
                 <div class="text-block-7">of</div>
               </div><a href="#" class="active-switchbutton2 w-button" data-ix="buttonswitch">Eenmalig</a></div>
-            <p class="products-paragraph">U kunt kiezen om uw website in een keer te betalen. Hosting en een domeinnaam zullen dan voor eigen kosten zijn. Extra onderhoud door mij is niet inbegrepen. Dit is natuurlijk wel mogelijk tegenover een vast uurtarief.</p>
+            <p class="products-paragraph" data-ix="scroll-fade">U kunt kiezen om uw website in een keer te betalen. Hosting en een domeinnaam zullen dan voor eigen kosten zijn. Extra onderhoud door mij is niet inbegrepen. Dit is natuurlijk wel mogelijk tegenover een vast uurtarief.</p>
             <div class="productsmonthly w-row" data-ix="block-scroll-fade">
-              <div class="product-column w-col w-col-4">
+              <div class="product-column w-col w-col-4" data-ix="scroll-fade">
                 <div class="prod-block-1">
                   <div class="prod-top1">
                     <div class="price-container">
@@ -257,7 +313,7 @@ a {
                           <div class="prod-currency-text">€</div>
                         </div>
                         <div class="prod-number">
-                          <h1 class="heading-14">599</h1>
+                          <h1 class="heading-14">649</h1>
                         </div>
                         <div class="prod-month">
                           <div class="prod-once-text">m</div>
@@ -267,38 +323,54 @@ a {
                     </div>
                     <div class="prod-top-shape"></div>
                   </div>
+                  <p class="blue-info-text">Voor een website met one-page design waarop de content zelden aangepast wordt.</p>
                   <div class="prod-bottom">
-                    <p class="blue-info-text">Voor een website met one-page design waarop de content zelden aangepast wordt.</p>
                     <div class="prodlist">
                       <div class="proditem">
                         <div class="prod-item-textblock">One-page</div>
+                        <div tooltipster="top" title="Een uniek one-page design. Voor sommigen is één pagina genoeg." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Responsive design</div>
+                        <div tooltipster="top" title="Uw website zal ook goed te zien zijn op smartphones en tablets." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Koppeling domeinnaam</div>
+                        <div tooltipster="top" title="Ik zorg voor de koppeling met uw domeinnaam. Deze domeinnaam is voor uw eigen kosten." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">MailChimp</div>
+                        <div tooltipster="top" title="Met MailChimp houdt u controle over uw mailverkeer en formulieren op uw website." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">SEO standard</div>
+                        <div tooltipster="top" title="Search Engine Optimalisation zorgt ervoor dat uw website goed vindbaar is door zoekmachines." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">Live binnen 2-4 weken</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 2 tot 4 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Projectcodes</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 2 tot 4 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem-not">
                         <div class="prod-item-textblock">Geen editor</div>
+                        <div tooltipster="top" title="Met de editor kunt u gemakkelijk content veranderen op uw website." class="tooltip"></div>
                       </div>
                       <div class="proditem-not">
                         <div class="prod-item-textblock">Hosting exclusief</div>
+                        <div tooltipster="top" title="Ik zorg voor de hosting van uw website. Deze hosting is betrouwbaar en supersnel." class="tooltip"></div>
                       </div>
                       <div class="proditem-not">
                         <div class="prod-item-textblock">Onderhoud op uurtarief</div>
-                      </div>
-                    </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                        <div tooltipster="top" title="Eventueel onderhoud in mogelijk tegenover een vast uurtarief." class="tooltip"></div>
+                      </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                  </div>
                 </div>
               </div>
-              <div class="product-column w-col w-col-4">
-                <div class="prod-block-2">
+              <div class="product-column w-col w-col-4" data-ix="scroll-fade">
+                <div class="prod-block-1">
                   <div class="prod-top2">
                     <div class="price-container">
                       <div class="prod-price">
@@ -306,7 +378,7 @@ a {
                           <div class="prod-currency-text">€</div>
                         </div>
                         <div class="prod-number">
-                          <h1 class="heading-14">1199</h1>
+                          <h1 class="heading-14">1149</h1>
                         </div>
                         <div class="prod-month">
                           <div class="prod-once-text">m</div>
@@ -316,38 +388,54 @@ a {
                     </div>
                     <div class="prod-top-shape"></div>
                   </div>
+                  <p class="blue-info-text">Voor een dynamische website waarop de content regelmatig gewijzigd wordt.</p>
                   <div class="prod-bottom">
-                    <p class="blue-info-text">Voor een dynamische website waarop de content regelmatig gewijzigd wordt.</p>
                     <div class="prodlist">
                       <div class="proditem">
                         <div class="prod-item-textblock">7 pagina&#x27;s</div>
+                        <div tooltipster="top" title="Maarliefst 7 pagina&#x27;s om uw ideale website samen te stellen." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Responsive design</div>
+                        <div tooltipster="top" title="Uw website zal ook goed te zien zijn op smartphones en tablets." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Koppeling domeinnaam</div>
+                        <div tooltipster="top" title="Ik zorg voor de koppeling met uw domeinnaam. Deze domeinnaam is voor uw eigen kosten." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">MailChimp</div>
+                        <div tooltipster="top" title="Met MailChimp houdt u controle over uw mailverkeer en formulieren op uw website." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">SEO standard</div>
+                        <div tooltipster="top" title="Search Engine Optimalisation zorgt ervoor dat uw website goed vindbaar is door zoekmachines." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">Live binnen 4-6 weken</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 4 - 6 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Projectcodes</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 4 - 6 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem">
-                        <div class="prod-item-textblock">Editor</div>
+                        <div class="prod-item-textblock">Editor *</div>
+                        <div tooltipster="top" title="Met de editor kunt u gemakkelijk content veranderen op uw website." class="tooltip"></div>
                       </div>
                       <div class="proditem-not">
-                        <div class="prod-item-textblock">Hosting exclusief</div>
+                        <div class="prod-item-textblock">CMS Hosting exclusief</div>
+                        <div tooltipster="top" title="Met CMS hosting kunt u gemakkelijk uw content aanpassen/beheren." class="tooltip"></div>
                       </div>
                       <div class="proditem-not">
                         <div class="prod-item-textblock">Onderhoud op uurtarief</div>
-                      </div>
-                    </div><a class="nice-button-prod w-button">Meer info</a></div>
+                        <div tooltipster="top" title="Eventueel onderhoud in mogelijk tegenover een vast uurtarief." class="tooltip"></div>
+                      </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                  </div>
                 </div>
               </div>
-              <div class="product-column w-col w-col-4">
-                <div class="prod-block-3">
+              <div class="product-column w-col w-col-4" data-ix="scroll-fade">
+                <div class="prod-block-1">
                   <div class="prod-top3">
                     <div class="price-container">
                       <div class="prod-price-2">
@@ -355,7 +443,7 @@ a {
                           <div class="prod-currency-text">€</div>
                         </div>
                         <div class="prod-number">
-                          <h1 class="heading-14">1899</h1>
+                          <h1 class="heading-14">1849</h1>
                         </div>
                         <div class="prod-month">
                           <div class="prod-once-text">m</div>
@@ -365,38 +453,56 @@ a {
                     </div>
                     <div class="prod-top-shape"></div>
                   </div>
+                  <p class="blue-info-text">Voor een high-end website waarop de content regelmatig gewijzigd wordt.</p>
                   <div class="prod-bottom">
-                    <p class="blue-info-text">Voor een high-end website waarop de content regelmatig gewijzigd wordt.</p>
                     <div class="prodlist">
                       <div class="proditem">
                         <div class="prod-item-textblock">Onbeperkte pagina&#x27;s</div>
+                        <div tooltipster="top" title="Onbeperkt aantal pagina&#x27;s om uw ideale website samen te stellen." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Responsive design</div>
+                        <div tooltipster="top" title="Uw website zal ook goed te zien zijn op smartphones en tablets." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Koppeling domeinnaam</div>
+                        <div tooltipster="top" title="Ik zorg voor de koppeling met uw domeinnaam. Deze domeinnaam is voor uw eigen kosten." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">MailChimp</div>
+                        <div tooltipster="top" title="Met MailChimp houdt u controle over uw mailverkeer en formulieren op uw website." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">SEO Large</div>
+                        <div tooltipster="top" title="Search Engine Optimalisation zorgt ervoor dat uw website goed vindbaar is door zoekmachines." class="tooltip"></div>
+                      </div>
+                      <div class="proditem">
+                        <div class="prod-item-textblock">Live binnen 6-8 weken</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 6 tot 8 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem">
                         <div class="prod-item-textblock">Projectcodes</div>
+                        <div tooltipster="top" title="Uw website staat online binnen 6 tot 8 weken." class="tooltip"></div>
                       </div>
                       <div class="proditem">
-                        <div class="prod-item-textblock">Editor</div>
+                        <div class="prod-item-textblock">Editor *</div>
+                        <div tooltipster="top" title="Met de editor kunt u gemakkelijk content veranderen op uw website." class="tooltip"></div>
                       </div>
                       <div class="proditem-not">
-                        <div class="prod-item-textblock">Hosting exclusief</div>
+                        <div class="prod-item-textblock">CMS Hosting exclusief</div>
+                        <div tooltipster="top" title="Met CMS hosting kunt u gemakkelijk uw content aanpassen/beheren." class="tooltip"></div>
                       </div>
                       <div class="proditem-not">
                         <div class="prod-item-textblock">Onderhoud op uurtarief</div>
-                      </div>
-                    </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                        <div tooltipster="top" title="Eventueel onderhoud in mogelijk tegenover een vast uurtarief." class="tooltip"></div>
+                      </div><a href="contact.html" class="nice-button-prod w-button">Meer info</a></div>
+                  </div>
                 </div>
               </div>
             </div>
+            <p class="exclbtw" data-ix="scroll-fade">* Editor alleen mogelijk in combinatie met CMS hosting (exclusief)</p>
           </div>
+          <p class="exclbtw" data-ix="scroll-fade">Alle prijzen op deze website zijn exclusief btw.</p>
         </div>
         <div class="product-container w-container"></div>
       </div>
@@ -416,5 +522,7 @@ a {
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="https://cdn.rawgit.com/iamceege/tooltipster/master/dist/js/tooltipster.bundle.min.js"></script>
+  <script src="https://cdn.rawgit.com/maciejsaw/tooltipster-for-webflow/master/tooltipster-for-webflow.js"></script>
 </body>
 </html>
