@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri May 18 2018 09:48:23 GMT+0000 (UTC)  -->
+<!--  Last Published: Fri Jun 15 2018 10:29:48 GMT+0000 (UTC)  -->
 <html data-wf-page="5ae0e56bb744c105e7aa9b84" data-wf-site="5a85d0f196366500012d306d">
 <head>
   <meta charset="utf-8">
@@ -92,30 +92,25 @@ a {
       <div class="form-leftcol w-col w-col-7">
         <div class="formblock">
           <div class="form-block w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" method="post" action="https://wierperwebworks.us17.list-manage.com/subscribe/post?u=840f1a7915ae24140099dc125&amp;amp;id=0ca85dffe7" class="form">
+            <form id="email-form" name="email-form" data-name="Email Form" method="post" action="https://wierperwebworks.us17.list-manage.com/subscribe/post?u=840f1a7915ae24140099dc125&amp;amp;id=0ca85dffe7" class="form-home">
               <div class="form-row">
-                <div class="form-labelblock"><label for="NAAM-3" class="field-label">Naam</label><input type="text" class="form-input w-input" maxlength="256" name="NAAM-3" data-name="NAAM 3" placeholder="Voer uw naam in" id="NAAM-3"></div>
-                <div class="form-labelblock"><label for="BEDRIJF-2" class="field-label">Bedrijfsnaam</label><input type="text" class="form-input w-input" maxlength="256" name="BEDRIJF-2" data-name="BEDRIJF 2" placeholder="Voer uw bedrijfsnaam in" id="BEDRIJF-2"></div>
+                <div class="form-labelblock-contact"><label for="NAAM-4" class="field-label">Naam</label><input type="text" class="form-input w-input" maxlength="256" name="NAAM" data-name="NAAM" placeholder="Voer uw naam in" id="NAAM"></div>
+                <div class="form-labelblock-contact"><label for="BEDRIJF-2" class="field-label">Bedrijfsnaam</label><input type="text" class="form-input w-input" maxlength="256" name="BEDRIJF" data-name="BEDRIJF" placeholder="Voer uw bedrijfsnaam in" id="BEDRIJF"></div>
               </div>
               <div class="form-row">
-                <div class="form-labelblock"><label for="EMAIL-2" class="field-label">E-mail</label><input type="email" class="form-input w-input" maxlength="256" name="EMAIL-2" data-name="EMAIL 2" placeholder="Voer uw e-mailadres in" id="EMAIL-2" required=""></div>
-                <div class="form-labelblock"><label for="TELEFOON-2" class="field-label">Telefoonnummer</label><input type="text" class="form-input w-input" maxlength="256" name="TELEFOON-2" data-name="TELEFOON 2" placeholder="Voer uw telefoonnummer in" id="TELEFOON-2"></div>
+                <div class="form-labelblock-contact"><label for="EMAIL-2" class="field-label">E-mail</label><input type="email" class="form-input w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Voer uw e-mailadres in" id="EMAIL" required=""></div>
+                <div class="form-labelblock-contact"><label for="TELEFOON-2" class="field-label">Telefoonnummer</label><input type="text" class="form-input w-input" maxlength="256" name="TELEFOON" data-name="TELEFOON" placeholder="Voer uw telefoonnummer in" id="TELEFOON"></div>
               </div>
-              <div class="form-labelblock-radios"><label for="name" class="field-label">Pakket</label>
-                <div class="radios"></div>
-                <div class="radiobuttons">
-                  <div class="radio-button-field-1 w-radio"><input type="radio" id="Basic" name="PAKKET" value="Basic" data-name="PAKKET" class="radio-button-1 w-radio-input"><label for="Basic" class="form-product blue w-form-label">BASIC</label></div>
-                  <div class="radio-button-field-1 w-radio"><input type="radio" id="Pro" name="PAKKET" value="Pro" data-name="PAKKET" class="radio-button-2 w-radio-input"><label for="Pro-2" class="form-product yellow w-form-label">PRO</label></div>
-                  <div class="radio-button-field-1 w-radio"><input type="radio" id="Ultimate" name="PAKKET" value="Ultimate" data-name="PAKKET" class="radio-button-3 w-radio-input"><label for="Ultimate-2" class="form-product red w-form-label">ULTIMATE</label></div>
-                </div><label for="name" class="field-label">Betaalvorm</label>
-                <div class="radiobuttons-payment">
-                  <div class="radio-button-field-2 w-radio"><input type="radio" id="Maandelijks-2" name="PAYMENT" value="Maandelijks" data-name="PAYMENT" class="radio-button-4 w-radio-input"><label for="Maandelijks-3" class="form-payment w-form-label">Maandelijks</label></div>
-                  <div class="radio-button-field-2 w-radio"><input type="radio" id="Eenmalig-2" name="PAYMENT" value="Eenmalig" data-name="PAYMENT" class="radio-button-5 w-radio-input"><label for="Eenmalig-3" class="form-payment w-form-label">Eenmalig</label></div>
+              <div class="form-labelblock-textarea-contact"><label for="name" class="field-label">Bericht</label>
+                <div class="div-block-9"><textarea id="BERICHT" name="BERICHT" maxlength="5000" placeholder="Schrijf hier uw bericht.." data-name="BERICHT" class="textarea-contact w-input"></textarea></div>
+              </div><input type="submit" data-wait="Formulier wordt verstuurd" value="E-mail form" class="submit-button w-button">
+              <div class="agreetoterms-home">
+                <div class="checkbox-wrapper checkbox-square w-checkbox"><input type="checkbox" id="TOESTEMMINGGEVEN" name="TOESTEMMINGGEVEN" data-name="TOESTEMMINGGEVEN" data-ix="checkbox-ticker" required="" class="checkbox-ticker w-checkbox-input"><label for="TOESTEMMINGGEVEN" id="TOESTEMMINGGEVEN" class="checkbox-label no-label w-form-label">‍</label>
+                  <div class="checkbox-active-overlay square-overlay"></div>
                 </div>
+                <div class="text-block-20">Bij deze geef ik toestemming om de gegevens die ik hier heb ingevuld op te slaan en te gebruiken om contact met mijop te nemen.</div>
               </div>
-              <div class="form-labelblock-textarea"><label for="name" class="field-label">Bericht</label>
-                <div class="div-block-9"><textarea id="BERICHT-2" name="BERICHT-2" maxlength="5000" placeholder="Schrijf hier uw bericht.." data-name="BERICHT 2" class="textarea-2 w-input"></textarea></div>
-              </div><input type="submit" data-wait="Formulier wordt verstuurd" value="E-mail form" class="submit-button w-button"></form>
+            </form>
             <div class="w-form-done">
               <div>Bedankt! Je bericht is verzonden en er zal zo snel mogelijk op gereageerd worden</div>
             </div>
