@@ -5901,9 +5901,9 @@
 }
 
 .form-labelblock-textarea-domain {
-  display: block;
+  display: none;
   overflow: hidden;
-  height: auto;
+  height: 0px;
   margin-top: 20px;
   margin-right: 0px;
   margin-bottom: 7px;
