@@ -1713,16 +1713,16 @@
 }
 
 .submit-button {
-  position: absolute;
+  position: static;
   right: 0px;
   bottom: 0px;
   z-index: 5;
   overflow: visible;
   width: 70px;
   height: 70px;
-  margin-top: 0px;
-  margin-right: 16px;
-  margin-bottom: 105px;
+  margin-top: -40px;
+  margin-right: -20px;
+  margin-bottom: 0px;
   padding: 0px;
   border-radius: 100px;
   background-color: #0072bb;
@@ -1878,17 +1878,17 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 150px;
+  height: 200px;
   margin-bottom: 0px;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .textarea-2 {
@@ -4962,6 +4962,14 @@
   font-family: Montserrat, sans-serif;
 }
 
+.textarea-contact {
+  margin-bottom: 0px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
 .form-labelblock-textarea-contact {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6015,6 +6023,7 @@
 }
 
 .text-block-20 {
+  margin-left: 1px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -6145,7 +6154,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-right: 35px;
   margin-bottom: 20px;
   -webkit-box-orient: horizontal;
@@ -6375,6 +6384,25 @@
 
 .link-3 {
   color: #0072bb;
+}
+
+.checkbox-field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.checkbox {
+  margin-top: 6px;
+  margin-right: 0px;
+  -webkit-transform: scale(1.31);
+  -ms-transform: scale(1.31);
+  transform: scale(1.31);
 }
 
 html.w-mod-js *[data-ix="scroll-fade"] {
