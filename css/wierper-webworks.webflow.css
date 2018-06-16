@@ -6002,6 +6002,8 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
+  margin-right: 0px;
+  margin-left: -10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -6023,7 +6025,7 @@
 }
 
 .text-block-20 {
-  margin-left: 1px;
+  margin-left: 0px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -6391,6 +6393,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 15px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -6399,7 +6402,8 @@
 
 .checkbox {
   margin-top: 6px;
-  margin-right: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
   -webkit-transform: scale(1.31);
   -ms-transform: scale(1.31);
   transform: scale(1.31);
