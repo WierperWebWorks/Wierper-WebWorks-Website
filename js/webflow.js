@@ -74,7 +74,11 @@ Webflow.require('ix').init([
   {"slug":"textarea-ja","name":"textarea ja","value":{"style":{},"triggers":[{"type":"click","selector":".form-labelblock-textarea-ja","stepsA":[{"height":"auto","transition":"height 200 ease 0"}],"stepsB":[]}]}},
   {"slug":"textarea-nee","name":"textarea nee","value":{"style":{},"triggers":[{"type":"click","selector":".form-labelblock-textarea-ja","stepsA":[{"height":"0px","transition":"height 200 ease 0"}],"stepsB":[]}]}},
   {"slug":"open-text","name":"open text","value":{"style":{},"triggers":[{"type":"click","selector":".intake-label-textblock","stepsA":[{"height":"auto","transition":"height 200 ease 0"}],"stepsB":[]}]}},
-  {"slug":"close-text","name":"close text","value":{"style":{},"triggers":[{"type":"click","selector":".intake-label-textblock","stepsA":[{"height":"0px","transition":"height 200 ease 0"}],"stepsB":[]}]}}
+  {"slug":"close-text","name":"close text","value":{"style":{},"triggers":[{"type":"click","selector":".intake-label-textblock","stepsA":[{"height":"0px","transition":"height 200 ease 0"}],"stepsB":[]}]}},
+  {"slug":"intake-load-1","name":"intake load 1","value":{"style":{"opacity":0,"x":"-40px","y":"0px","z":"0px"},"triggers":[{"type":"load","preload":true,"stepsA":[{"wait":"500ms"},{"opacity":1,"transition":"transform 500ms ease 0, opacity 500ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"intake-load-2","name":"intake load 2","value":{"style":{"opacity":0,"x":"0px","y":"10px","z":"0px","scaleX":0.8,"scaleY":0.8,"scaleZ":1},"triggers":[{"type":"load","preload":true,"stepsA":[{"wait":"800ms"},{"opacity":1,"transition":"transform 1000ms ease 0, opacity 500ms ease 0","x":"0px","y":"0px","z":"0px","scaleX":1,"scaleY":1,"scaleZ":1}],"stepsB":[]}]}},
+  {"slug":"intake-load-3","name":"intake load 3","value":{"style":{"opacity":0,"x":"-40px","y":"0px","z":"0px"},"triggers":[{"type":"load","preload":true,"stepsA":[{"wait":"1500ms"},{"opacity":1,"transition":"transform 500ms ease 0, opacity 500ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"intake-load-4","name":"intake load 4","value":{"style":{"opacity":0,"x":"0px","y":"400px","z":"0px"},"triggers":[{"type":"load","preload":true,"stepsA":[{"wait":"2000ms"},{"opacity":1,"transition":"transform 1000ms ease 0, opacity 500ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}}
 ]);
 /**
  * ----------------------------------------------------------------------

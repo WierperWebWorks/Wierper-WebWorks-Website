@@ -2132,7 +2132,7 @@
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  height: auto;
+  height: 100vh;
   margin-top: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -5066,8 +5066,8 @@
 }
 
 .hero-collaborate {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: #fff;
   text-align: center;
 }
@@ -5585,6 +5585,7 @@
 }
 
 .collaborate-wrap {
+  overflow: hidden;
   min-height: 100vh;
   padding-bottom: 0px;
   background-color: #6c33da;
@@ -6450,6 +6451,34 @@ html.w-mod-js *[data-ix="show-content-onslide-2-not"] {
   -webkit-transform: translate(0px, 20px);
   -ms-transform: translate(0px, 20px);
   transform: translate(0px, 20px);
+}
+
+html.w-mod-js *[data-ix="intake-load-1"] {
+  opacity: 0;
+  -webkit-transform: translate(-40px, 0px);
+  -ms-transform: translate(-40px, 0px);
+  transform: translate(-40px, 0px);
+}
+
+html.w-mod-js *[data-ix="intake-load-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 10px) scale(0.8, 0.8);
+  -ms-transform: translate(0px, 10px) scale(0.8, 0.8);
+  transform: translate(0px, 10px) scale(0.8, 0.8);
+}
+
+html.w-mod-js *[data-ix="intake-load-3"] {
+  opacity: 0;
+  -webkit-transform: translate(-40px, 0px);
+  -ms-transform: translate(-40px, 0px);
+  transform: translate(-40px, 0px);
+}
+
+html.w-mod-js *[data-ix="intake-load-4"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 400px);
+  -ms-transform: translate(0px, 400px);
+  transform: translate(0px, 400px);
 }
 
 @media (max-width: 991px) {
