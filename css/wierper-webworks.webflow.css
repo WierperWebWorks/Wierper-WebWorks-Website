@@ -621,7 +621,7 @@
   background-color: transparent;
   font-family: Montserrat, sans-serif;
   color: #0072bb;
-  font-size: 34px;
+  font-size: 24px;
   line-height: 38px;
   font-weight: 300;
   text-align: center;
@@ -630,9 +630,10 @@
 .paragraph-9 {
   margin-top: 0px;
   margin-bottom: 30px;
+  color: #000;
   font-size: 15px;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
 }
 
 .container-3 {
@@ -886,6 +887,7 @@
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  color: #000;
   font-size: 15px;
   font-weight: 300;
 }
@@ -4152,7 +4154,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 60px 20px 20px;
+  padding: 80px 20px 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -5073,8 +5075,8 @@
 }
 
 .intake-heading1 {
-  margin-top: 1px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
@@ -5085,7 +5087,8 @@
 }
 
 .intake-heading2 {
-  margin-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 0px;
   font-family: Montserrat, sans-serif;
   font-size: 4.5em;
   font-weight: 500;
@@ -6324,6 +6327,56 @@
   color: #0072bb;
 }
 
+.privacyheading {
+  max-width: 800px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  background-color: transparent;
+  font-family: Montserrat, sans-serif;
+  color: #0072bb;
+  font-size: 34px;
+  line-height: 38px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.overheading {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.privacyparagraph {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.privacyheading2 {
+  max-width: 800px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  background-color: transparent;
+  font-family: Montserrat, sans-serif;
+  color: #0072bb;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.link-3 {
+  color: #0072bb;
+}
+
 html.w-mod-js *[data-ix="scroll-fade"] {
   opacity: 0;
   -webkit-transform: translate(0px, -35px);
@@ -6632,6 +6685,9 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     margin-right: -50px;
     padding-right: 0px;
   }
+  .submit-button {
+    margin-bottom: 119px;
+  }
   .blue-info-text {
     margin-bottom: 0px;
     padding-right: 10px;
@@ -6822,6 +6878,13 @@ html.w-mod-js *[data-ix="intake-load-4"] {
   }
   .preloader {
     display: none;
+  }
+  .form-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .container-7 {
     display: -webkit-box;
@@ -7031,6 +7094,10 @@ html.w-mod-js *[data-ix="intake-load-4"] {
   .backbutton-intake {
     margin-top: 15px;
   }
+  .form-labelblock-contact {
+    overflow: visible;
+    padding-right: 35px;
+  }
   .intake-heading1 {
     font-size: 2em;
     line-height: 1.2em;
@@ -7122,6 +7189,12 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     font-size: 0.9em;
     line-height: 1.1em;
     text-align: left;
+  }
+  .privacyheading {
+    font-size: 30px;
+  }
+  .privacyheading2 {
+    font-size: 30px;
   }
 }
 
@@ -7242,7 +7315,7 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     flex-direction: column-reverse;
   }
   .form-rightcol {
-    margin-top: 0px;
+    margin-top: 625px;
   }
   .radiobuttons {
     width: 100%;
@@ -7355,15 +7428,19 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     flex: 0 auto;
   }
   .hero-collaborate {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .intake-heading1 {
-    font-size: 2.2em;
+    font-size: 1.5em;
     line-height: 1.4em;
+    font-weight: 300;
+  }
+  .intake-heading2 {
+    font-size: 3em;
   }
   .intake-heading3 {
-    font-size: 2.2em;
+    font-size: 1.3em;
     line-height: 1.4em;
   }
   .extra-option-wrap {
@@ -7416,6 +7493,12 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .privacyheading {
+    font-size: 25px;
+  }
+  .privacyheading2 {
+    font-size: 25px;
   }
 }
 
@@ -7809,6 +7892,10 @@ html.w-mod-js *[data-ix="intake-load-4"] {
   }
   .formrow {
     z-index: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     overflow: visible;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -7817,12 +7904,24 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
     box-shadow: none;
   }
   .form-rightcol {
     z-index: 0;
     overflow: hidden;
-    margin-top: 60px;
+    margin-top: 0px;
     padding-top: 5px;
     border-radius: 10px;
   }
@@ -7832,9 +7931,9 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     padding-bottom: 1px;
   }
   .form-block {
-    padding-right: 20px;
+    padding-right: 0px;
     padding-bottom: 30px;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .form-labelblock {
     margin-right: 0px;
@@ -7901,6 +8000,12 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+  .submit-button {
+    position: static;
+    margin-top: -50px;
+    margin-right: -25px;
+    margin-bottom: 0px;
+  }
   .radiobuttons-payment {
     width: 100%;
     -webkit-box-orient: horizontal;
@@ -7958,6 +8063,18 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+  }
+  .div-block-9 {
+    height: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
   }
   .formheading {
     margin-top: 16px;
@@ -8041,8 +8158,9 @@ html.w-mod-js *[data-ix="intake-load-4"] {
   }
   .contactcontainer {
     position: relative;
-    overflow: hidden;
-    margin-top: 0px;
+    overflow: scroll;
+    height: auto;
+    margin-top: 57px;
     margin-bottom: 0px;
     padding: 15px 10px 60px;
   }
@@ -8547,6 +8665,7 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-left: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -8593,6 +8712,12 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .textarea-contact {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
   .form-labelblock-textarea-contact {
     margin-right: 0px;
     margin-bottom: 0px;
@@ -8611,6 +8736,7 @@ html.w-mod-js *[data-ix="intake-load-4"] {
   }
   .form-labelblock-contact {
     margin-right: 0px;
+    padding-right: 30px;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
@@ -8630,13 +8756,13 @@ html.w-mod-js *[data-ix="intake-load-4"] {
   }
   .intake-heading2 {
     font-size: 3em;
-    line-height: 45px;
+    line-height: 46px;
   }
   .intake-heading3 {
     margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .extra-option-wrap {
     -webkit-box-pack: center;
@@ -8811,6 +8937,9 @@ html.w-mod-js *[data-ix="intake-load-4"] {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+  }
+  .previous-button {
+    margin-left: -10px;
   }
   .form-labelblock-invis {
     margin-right: 0px;
@@ -9007,6 +9136,26 @@ html.w-mod-js *[data-ix="intake-load-4"] {
   .radios-intake2 {
     margin-bottom: 29px;
     font-size: 14px;
+  }
+  .privacyheading {
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .overheading {
+    margin-bottom: 40px;
+  }
+  .privacyparagraph {
+    margin-bottom: 40px;
+  }
+  .privacyheading2 {
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    line-height: 32px;
   }
 }
 
