@@ -6497,6 +6497,10 @@
   font-weight: 200;
 }
 
+.div-block-20 {
+  display: block;
+}
+
 html.w-mod-js *[data-ix="scroll-fade"] {
   opacity: 0;
   -webkit-transform: translate(0px, -35px);
