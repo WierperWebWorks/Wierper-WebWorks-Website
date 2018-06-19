@@ -6499,7 +6499,7 @@
 }
 
 .div-block-20 {
-  display: none;
+  display: block;
 }
 
 html.w-mod-js *[data-ix="scroll-fade"] {
