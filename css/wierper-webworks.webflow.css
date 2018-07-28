@@ -1579,7 +1579,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .65);
 }
 
 .container-6 {
@@ -1822,8 +1822,8 @@
   width: 100vw;
   height: 140%;
   margin-top: 0px;
-  background-image: url('../images/photo-1485988412941-77a35537dae4.jpeg');
-  background-position: 53% 49%;
+  background-image: url('../images/OJ8XGX1.jpg');
+  background-position: 50% 163px;
   background-size: cover;
   background-attachment: fixed;
   -webkit-transform: scale3d(1, 0.8, 1);
@@ -1955,7 +1955,7 @@
   flex-direction: row;
   font-family: Montserrat, sans-serif;
   color: hsla(0, 0%, 100%, .9);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   text-align: center;
 }
@@ -2338,6 +2338,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  height: 70px;
   padding-top: 3px;
   padding-bottom: 3px;
   -webkit-box-orient: horizontal;
@@ -2353,7 +2354,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: hsla(0, 0%, 100%, .2);
+  background-color: #0072bb;
 }
 
 .text-block-12 {
@@ -2395,7 +2396,7 @@
   margin-top: 3px;
   font-family: Montserrat, sans-serif;
   color: hsla(0, 0%, 100%, .9);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   text-align: center;
   text-decoration: none;
@@ -4308,7 +4309,7 @@
 }
 
 .div-block-20 {
-  display: block;
+  display: none;
 }
 
 .image-16 {
@@ -5015,6 +5016,7 @@ html.w-mod-js *[data-ix="movingmouse"] {
     background-attachment: scroll;
   }
   .parallax-bg2 {
+    background-position: 0px 22px;
     background-size: cover;
     background-attachment: scroll;
   }
@@ -6352,6 +6354,7 @@ html.w-mod-js *[data-ix="movingmouse"] {
     background-attachment: scroll;
   }
   .parallax-bg2 {
+    background-position: 50% 50%;
     background-size: cover;
     background-attachment: scroll;
   }
@@ -6364,6 +6367,9 @@ html.w-mod-js *[data-ix="movingmouse"] {
   .footer-pic {
     width: 200px;
     height: 40px;
+  }
+  .footer-textline {
+    margin-top: 5px;
   }
   .link {
     font-size: 15px;
@@ -6468,11 +6474,25 @@ html.w-mod-js *[data-ix="movingmouse"] {
   .footer-top {
     overflow: hidden;
   }
+  .footer-bottom {
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
   .text-block-12 {
+    display: none;
     font-size: 13px;
   }
   .preloader {
     display: none;
+  }
+  .link-down {
+    margin-top: 5px;
   }
   .form-row {
     margin-bottom: 0px;
@@ -7185,44 +7205,8 @@ html.w-mod-js *[data-ix="movingmouse"] {
 }
 @font-face {
   font-family: 'Brandon bld';
-  src: url('../fonts/Brandon_bld.otf') format('opentype'), url('../fonts/Brandon_bld.otf') format('opentype');
+  src: url('../fonts/Brandon_bld.otf') format('opentype');
   font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon blk';
-  src: url('../fonts/Brandon_blk.otf') format('opentype'), url('../fonts/Brandon_blk.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon blk it';
-  src: url('../fonts/Brandon_blk_it.otf') format('opentype'), url('../fonts/Brandon_blk_it.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon bld it';
-  src: url('../fonts/Brandon_bld_it.otf') format('opentype'), url('../fonts/Brandon_bld_it.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon it';
-  src: url('../fonts/Brandon_light_it.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon reg';
-  src: url('../fonts/Brandon_reg.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon';
-  src: url('../fonts/Brandon_light.otf') format('opentype');
-  font-weight: 300;
   font-style: normal;
 }
 @font-face {
@@ -7235,23 +7219,5 @@ html.w-mod-js *[data-ix="movingmouse"] {
   font-family: 'Brandon med';
   src: url('../fonts/Brandon_med.otf') format('opentype');
   font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon reg it';
-  src: url('../fonts/Brandon_reg_it.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon it';
-  src: url('../fonts/Brandon_thin_it.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon';
-  src: url('../fonts/Brandon_thin.otf') format('opentype');
-  font-weight: 100;
   font-style: normal;
 }
